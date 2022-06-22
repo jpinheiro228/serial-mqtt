@@ -1,0 +1,10 @@
+mqtt:
+  sensor:
+    - name: "Cellar Temperature"
+      state_topic: "home/cellar/environment"
+      unit_of_measurement: "°C"
+      value_template: "{{ value_json.temperature }}"
+    - name: "Cellar Humidity"
+      state_topic: "home/cellar/environment"
+      unit_of_measurement: "%"
+      value_template: "{{ value_json.humidity }}"
