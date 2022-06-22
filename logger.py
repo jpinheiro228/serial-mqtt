@@ -1,6 +1,6 @@
 import logging
 
-log_format_default = "[%(asctime)s] - %(name)-30s - %(levelname)-8s - %(message)s"
+log_format_default = "[%(asctime)s] - %(name)-10s - %(levelname)-8s - %(message)s"
 log_format_debug = "[%(asctime)s] - %(name)-30s - %(levelname)-8s - %(funcName)s - %(message)s"
 loglevel_dict = {"INFO": logging.INFO,
                  "DEBUG": logging.DEBUG,
