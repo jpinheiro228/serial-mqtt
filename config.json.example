@@ -1,0 +1,7 @@
+{
+  "username": "mqtt-user",
+  "password": "mqtt-pass",
+  "broker":"127.0.0.1",
+  "topics": ["my/pub/topic"],
+  "id": "mqtt-id"
+}
